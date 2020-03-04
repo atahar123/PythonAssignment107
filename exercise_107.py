@@ -22,9 +22,14 @@ menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras']
 food_order = []
 print(menu)
 
-cusorder = input(f'Please select what you want from the menu\n')
+cusorder = []
+maxLengthList = 3
+while len(cusorder) < maxLengthList:
+    item = input('Please select what you want from the menu ')
+    cusorder.append(item)
+    print(cusorder, '\n')
 
-print(cusorder)
+print(f'Your final order is {cusorder}')
 
 # I need to print each item from the list
 # print(menu[0])
