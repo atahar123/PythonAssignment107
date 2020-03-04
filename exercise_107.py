@@ -18,18 +18,23 @@
 # follows best practices
 
 # starter code
-menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras'.]
+menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras'.title()]
 food_order = []
 print(menu)
+print('1', '-' ,menu[0].capitalize())
+print('1', '-' ,menu[1].capitalize())
 
-cusorder = []
-maxLengthList = 3
-while len(cusorder) < maxLengthList:
+cus_order = []
+max_length_list = 3
+print(cus_order)
+print(len(cus_order))
+while len(cus_order) < max_length_list:
     item = input('Please select what you want from the menu ')
-    cusorder.append(item)
-    print(cusorder, '\n')
+    cus_order.append(item)
+    print(cus_order, '\n')
+    print(len(cus_order))
 
-print(f'Your final order is {cusorder}'.upper())
+print(f'Your final order is {cus_order}'.upper())
 
 # I need to print each item from the list
 # print(menu[0])
