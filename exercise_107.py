@@ -18,7 +18,7 @@
 # follows best practices
 
 # starter code
-menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras']
+menu = ['falafel', 'HuMMus', 'coUScous', 'Bacalhau a Bras'.]
 food_order = []
 print(menu)
 
@@ -29,7 +29,7 @@ while len(cusorder) < maxLengthList:
     cusorder.append(item)
     print(cusorder, '\n')
 
-print(f'Your final order is {cusorder}')
+print(f'Your final order is {cusorder}'.upper())
 
 # I need to print each item from the list
 # print(menu[0])
